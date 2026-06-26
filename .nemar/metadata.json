@@ -1,19 +1,33 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "The effect of theta tACS on working memory",
+  "description": "This dataset investigates the effects of theta transcranial alternating current stimulation (tACS) on working memory performance and neural activity. Participants received either verum or sham stimulation at 6 Hz over the Fpz-CPz electrode pair, followed by working memory tasks requiring mental manipulation or retention of items while EEG was recorded. Resting-state EEG recordings with eyes closed and open were also acquired to characterize baseline neural oscillations.",
+  "methods_description": "Transcranial alternating current stimulation (tACS) was applied at 6 Hz, 1 mA intensity over Fpz-CPz for 20 minutes (verum or sham). Working memory tasks were performed during EEG recording. Resting-state EEG was recorded for 3 minutes with eyes closed and 1.5 minutes with eyes open.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Yuri G. Pavlov": {},
     "Dauren Kasanov": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005034.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "transcranial alternating current stimulation"
+    },
+    {
+      "term": "theta oscillations"
+    },
+    {
+      "term": "cognitive neuroscience"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005034",
       "identifier_type": "URL",
@@ -28,60 +42,26 @@
       "identifier": "10.1101/2024.03.20.585954",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005034.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "65.9 GB (101 files)"
   ],
   "formats": [
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset examines the effects of theta transcranial alternating current stimulation (tACS) on working memory performance and neural activity. Participants underwent either verum or sham stimulation at 6 Hz applied to frontal-central electrode sites, followed by working memory tasks requiring mental manipulation or retention of items while EEG was recorded. Resting-state EEG data with eyes closed and open were also acquired to characterize baseline neural oscillations.",
-  "methods_description": "Transcranial alternating current stimulation (tACS) was applied at 6 Hz, 1 mA intensity to electrode sites Fpz-CPz for 20 minutes (verum or sham). Working memory tasks were performed during concurrent EEG recording. Resting-state EEG was recorded for 3 minutes with eyes closed and 1.5 minutes with eyes open.",
-  "keywords": [
-    {
-      "term": "EEG",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "working memory",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D057567"
-    },
-    {
-      "term": "transcranial alternating current stimulation",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D065908"
-    },
-    {
-      "term": "theta oscillations",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013826"
-    },
-    {
-      "term": "Transcranial Electrical Stimulation",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D065908"
-    },
-    {
-      "term": "cognitive performance",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003071"
-    }
-  ],
-  "source_hash": "623af8d2664dd9f5b377eabaeea6ba58107f9e922bd8d82fddffb3849d1e0fb0"
+  "source_hash": "b1b6ede132d4322ab353f8ca6987b078662d59ea94232c9d97cfcfd525efe16c"
 }
