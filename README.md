@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005034-blue)](https://doi.org/10.82901/nemar.on005034)
+
 Following either a 20-minute verum or sham stimulation applied to Fpz-CPz at 1 mA and 6 Hz, the participants performed WM tasks, while EEG was recorded. The task required participants to either mentally manipulate memory items or retain them in memory as they were originally presented. In addition, before the working memory task, resting state EEG with eyes closed was recorded for 3 minutes and with eyes open for 1.5 minutes.
 
 Behavioral performance data are available on OSF (https://osf.io/v2qwc/)
