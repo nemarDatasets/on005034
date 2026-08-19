@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The effect of theta tACS on working memory",
-  "description": "This dataset investigates the effects of theta transcranial alternating current stimulation (tACS) on working memory performance and neural activity. Participants received either verum or sham stimulation at 6 Hz over the Fpz-CPz electrode pair, followed by working memory tasks requiring mental manipulation or retention of items while EEG was recorded. Resting-state EEG recordings with eyes closed and open were also acquired to characterize baseline neural oscillations.",
-  "methods_description": "Transcranial alternating current stimulation (tACS) was applied at 6 Hz, 1 mA intensity over Fpz-CPz for 20 minutes (verum or sham). Working memory tasks were performed during EEG recording. Resting-state EEG was recorded for 3 minutes with eyes closed and 1.5 minutes with eyes open.",
+  "description": "This dataset examines the effects of theta transcranial alternating current stimulation (tACS) on working memory performance and associated EEG activity. Participants received either verum or sham 20-minute tACS at 1 mA and 6 Hz over Fpz-CPz, followed by working memory tasks requiring mental manipulation or retention of memory items, while EEG was recorded. Resting-state EEG (eyes closed and eyes open) was also collected prior to the working memory task.",
+  "methods_description": "Participants underwent 20 minutes of verum or sham tACS applied to Fpz-CPz at 1 mA and 6 Hz. EEG was recorded during working memory tasks requiring participants to mentally manipulate or retain memory items, as well as during resting-state periods with eyes closed (3 minutes) and eyes open (1.5 minutes) prior to the task.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,26 +15,31 @@
       "term": "EEG"
     },
     {
-      "term": "working memory"
+      "term": "Transcranial Alternating Current Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D065909"
     },
     {
-      "term": "transcranial alternating current stimulation"
+      "term": "Memory, Short-Term",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
+    },
+    {
+      "term": "tACS"
     },
     {
       "term": "theta oscillations"
     },
     {
-      "term": "cognitive neuroscience"
+      "term": "working memory"
+    },
+    {
+      "term": "resting state EEG"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005034",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005034",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -47,6 +52,11 @@
       "identifier": "10.18112/openneuro.ds005034.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on005034",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
