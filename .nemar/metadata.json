@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The effect of theta tACS on working memory",
-  "description": "This dataset examines the effects of theta transcranial alternating current stimulation (tACS) on working memory performance and associated EEG activity. Participants received either verum or sham 20-minute tACS at 1 mA and 6 Hz over Fpz-CPz, followed by working memory tasks requiring mental manipulation or retention of memory items, while EEG was recorded. Resting-state EEG (eyes closed and eyes open) was also collected prior to the working memory task.",
-  "methods_description": "Participants underwent 20 minutes of verum or sham tACS applied to Fpz-CPz at 1 mA and 6 Hz. EEG was recorded during working memory tasks requiring participants to mentally manipulate or retain memory items, as well as during resting-state periods with eyes closed (3 minutes) and eyes open (1.5 minutes) prior to the task.",
+  "description": "This dataset contains EEG recordings from a study testing whether theta transcranial alternating current stimulation (tACS) improves working memory. Participants received either 20 minutes of verum or sham stimulation (1 mA, 6 Hz, Fpz-CPz) and then performed working memory tasks requiring mental manipulation or simple retention of items. Resting-state EEG with eyes closed and eyes open was also recorded before the task.",
+  "methods_description": "Participants received 20 minutes of verum or sham tACS at 1 mA and 6 Hz applied to Fpz-CPz. EEG was then recorded during working memory tasks (manipulation vs. retention). Resting-state EEG was recorded before the task for 3 minutes with eyes closed and 1.5 minutes with eyes open.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,16 +15,6 @@
       "term": "EEG"
     },
     {
-      "term": "Transcranial Alternating Current Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D065909"
-    },
-    {
-      "term": "Memory, Short-Term",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
-    },
-    {
       "term": "tACS"
     },
     {
@@ -34,7 +24,12 @@
       "term": "working memory"
     },
     {
-      "term": "resting state EEG"
+      "term": "transcranial alternating current stimulation"
+    },
+    {
+      "term": "Memory, Short-Term",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008570"
     }
   ],
   "related_identifiers": [
@@ -64,7 +59,7 @@
     "eeg"
   ],
   "sizes": [
-    "65.9 GB (101 files)"
+    "61.36 GB (101 files)"
   ],
   "formats": [
     ".json",
